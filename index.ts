@@ -2,6 +2,7 @@
 
 import inquirer from "inquirer";
 
+console.log("Welcome to Number Guessing Game");
 const randomNumber = Math.floor(Math.random() * 100 + 1 ); 
 const answer = await inquirer.prompt([
   {
@@ -16,3 +17,4 @@ if (answer.GuessedNumberofUser === randomNumber ) {
 } else { 
     console.log("You guessed the wrong number. Let's Try Again!")
 };
+
