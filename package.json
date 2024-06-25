@@ -1,5 +1,5 @@
 {
-  "name": "project02-guessing-numbers-game-aiman",
+  "name": "project02-number-guess-game-aimy",
   "version": "1.0.0",
   "description": "This is a CLI game of guessing random generated numbers.",
   "main": "index.js",
